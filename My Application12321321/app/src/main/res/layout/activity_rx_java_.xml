@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".RxJava_Activity"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btn_rxjava_simple"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RxJava的基本使用"/>
+        <Button
+            android:id="@+id/btn_rxjava_better"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RxJava的进阶使用"/>
+        <Button
+            android:id="@+id/btn_rxjava_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RxJava的Map操作符使用"/>
+        <Button
+            android:id="@+id/btn_rxjava_concat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RxJava的Concat操作符使用"/>
+        <ImageView
+            android:id="@+id/img_concat_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"/>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/grid_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

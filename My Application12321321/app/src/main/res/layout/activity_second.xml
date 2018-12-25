@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+
+
+    <TextView
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/tv_sec_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="测试数据"/>
+    <ProgressBar
+        app:layout_constraintTop_toBottomOf="@id/tv_sec_main"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/pgb_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbarStyle="insideInset"
+        android:visibility="gone"/>
+    <Button
+        app:layout_constraintTop_toBottomOf="@id/pgb_loading"
+        android:id="@+id/btn_send_ok_http"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请求网络"/>
+
+    <Button
+        app:layout_constraintTop_toBottomOf="@id/btn_send_ok_http"
+        android:id="@+id/btn_download_ok_http"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="下载文件"/>
+
+    <ProgressBar
+        app:layout_constraintTop_toBottomOf="@id/btn_download_ok_http"
+        android:id="@+id/pgb_downloading"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal" />
+    <TextView
+        app:layout_constraintTop_toBottomOf="@id/pgb_downloading"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tv_downloadingSpeed"
+        android:id="@+id/tv_downloadingProgress"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="0%"
+        android:gravity="center"/>
+    <TextView
+        app:layout_constraintTop_toBottomOf="@id/pgb_downloading"
+        app:layout_constraintStart_toEndOf="@+id/tv_downloadingProgress"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/tv_downloadingSpeed"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="0M/0M"
+        android:gravity="center"/>
+    <Button
+        app:layout_constraintTop_toBottomOf="@id/tv_downloadingSpeed"
+        android:id="@+id/btn_upload_ok_http"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="上传文件"/>
+
+
+    <Button
+        app:layout_constraintTop_toBottomOf="@id/btn_upload_ok_http"
+        android:id="@+id/btn_retrofit_ok_http"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Retrofit测试"/>
+
+    <TextView
+        app:layout_constraintTop_toBottomOf="@id/btn_retrofit_ok_http"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/tv_textContent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"/>
+</android.support.constraint.ConstraintLayout>

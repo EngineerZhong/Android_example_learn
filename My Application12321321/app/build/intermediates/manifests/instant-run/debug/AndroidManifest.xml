@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a.myapplication12321321"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="26" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.PERMISSION_ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name="com.example.a.myapplication12321321.base.mvp.MyApplication"
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.a.myapplication12321321.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.a.myapplication12321321.SecondActivity" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.example.a.myapplication12321321.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity android:name="com.example.a.myapplication12321321.base.mvp.downloadImagetask.DownloadTaskActivity" />
+        <activity android:name="com.example.a.myapplication12321321.RecyclerActivity" />
+        <activity android:name="com.example.a.myapplication12321321.MultipleRecyclerActivity" />
+        <activity android:name="com.example.a.myapplication12321321.base.viewpagerfragment.ViewPageActivity" />
+        <activity android:name="com.example.a.myapplication12321321.GreenDaoActivity" />
+        <activity android:name="com.example.a.myapplication12321321.RxJava_Activity" />
+        <activity android:name="com.example.a.myapplication12321321.ThirdActivity" >
+            <intent-filter>
+                <action android:name="com.example.a.myapplication12321321.ThirdActivityAction" />
+
+                <category android:name="com.example.a.myapplication12321321.ThirdCategory" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.a.myapplication12321321.DialogFragment"
+            android:theme="@style/Theme.AppCompat.Dialog" />
+        <activity android:name="com.example.a.myapplication12321321.MezuRecycleView" />
+        <activity android:name="com.example.a.myapplication12321321.rxjava.CommonActivity_Fragment" />
+        <activity android:name="com.example.a.myapplication12321321.designview.DesignActivity" />
+
+        <receiver
+            android:name="com.example.a.myapplication12321321.broadcast.StaticReceiver"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.DATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="com.luck.picture.lib.PictureFileProvider"
+            android:authorities="com.example.a.myapplication12321321.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name="com.luck.picture.lib.PictureSelectorActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name="com.luck.picture.lib.PicturePreviewActivity" />
+        <activity
+            android:name="com.luck.picture.lib.PictureVideoPlayActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="sensor" />
+        <activity android:name="com.luck.picture.lib.PictureExternalPreviewActivity" />
+        <activity android:name="com.yalantis.ucrop.UCropActivity" />
+        <activity android:name="com.yalantis.ucrop.PictureMultiCuttingActivity" />
+        <activity android:name="com.luck.picture.lib.PicturePlayAudioActivity" />
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.example.a.myapplication12321321.com.squareup.picasso"
+            android:exported="false" />
+        <provider
+            android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.example.a.myapplication12321321.lifecycle-trojan"
+            android:exported="false"
+            android:multiprocess="true" />
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="com.example.a.myapplication12321321.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

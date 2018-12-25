@@ -1,0 +1,357 @@
+-- Merging decision tree log ---
+provider#android.support.v4.content.FileProvider
+INJECTED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:32:9-40:20
+	android:grantUriPermissions
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:36:13-47
+	android:authorities
+		INJECTED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:34:13-60
+	android:exported
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:33:13-67
+manifest
+ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:2:1-73:12
+INJECTED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:2:1-73:12
+INJECTED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:2:1-73:12
+INJECTED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:2:1-73:12
+MERGED from [com.android.support:design:27.1.0] C:\Users\A\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\dd1d9eaf18cacf4473892fe813996778\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\A\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\2186c074862d73f57f2ab108eec96937\AndroidManifest.xml:2:1-36:12
+MERGED from [com.github.LuckSiege.PictureSelector:ucrop:v2.2.3] C:\Users\A\.gradle\caches\transforms-1\files-1.1\ucrop-v2.2.3.aar\61f6663dcf58500b32e2c0db98d45ca6\AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\A\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\f312aa52e3b49820c907e9804a3b6df8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\A\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\7eda526010433d66ab59bcabf0633be7\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\ccfd78a3744d5549e193c6cb569aef38\AndroidManifest.xml:17:1-22:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\3ec621c5bad0f5e688b45e471f86e263\AndroidManifest.xml:15:1-21:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\A\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\fb4af65ce7d758e483f0481d53d8af95\AndroidManifest.xml:2:1-14:12
+MERGED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30] C:\Users\A\.gradle\caches\transforms-1\files-1.1\BaseRecyclerViewAdapterHelper-2.9.30.aar\b8fc76646c2c324c226630ebddb2105b\AndroidManifest.xml:2:1-11:12
+MERGED from [com.jakewharton:butterknife:8.5.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\butterknife-8.5.1.aar\8a10b5e628ba4879e2a815407cf3d22d\AndroidManifest.xml:2:1-7:12
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\730d6422917d320fae408d35e886013a\AndroidManifest.xml:17:1-30:12
+MERGED from [com.android.support:transition:27.1.0] C:\Users\A\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\e757d1b7646e636fae3634eaf07b3d12\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.5.0] C:\Users\A\.gradle\caches\transforms-1\files-1.1\glide-4.5.0.aar\17e3da1afc5580802b19d8bd8deec2a0\AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\2431193bd5c90ffc3cafeba9822eb95a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\A\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\27a30d2eeab589a4b9ccee2cec6230bd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\A\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\a66f013a6742109cd8b72c5ff1a45def\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\1c9019c6a319bd97053f122bedb27722\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\fd910c39ac13dc05a5dd4434a3924709\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\5a4b9b13b6f3f85b1458aac44c64f35b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\A\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\91959ce8dbc8360333111e028fd4d377\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\8ff6b2bad657175244708e0d00ebae65\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\464dbc787eaf58a45439031d5365af41\AndroidManifest.xml:17:1-22:12
+MERGED from [com.xhb:xbanner:1.5.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\xbanner-1.5.1.aar\ed217affbfb6755a91eaea4e923eefc1\AndroidManifest.xml:2:1-14:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\22d86f17417cf18273ec4b1df5d2ed94\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\1a7863a532f43ee2fa6d1f35b8d2cd38\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\fcc2ab3fd7bd1bdb78a8cfcf8e20d6aa\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\A\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\d4824a9b6a1e007e75583337ad62db84\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.5.0] C:\Users\A\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.5.0.aar\279a98023dc1afcc6ae13e55938c58df\AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\bdc428385aa9948f2856510908033789\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:2:1-73:12
+INJECTED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:2:1-73:12
+INJECTED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:2:1-73:12
+	package
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:3:5-50
+		INJECTED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml
+		INJECTED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:2:1-73:12
+		INJECTED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:2:1-73:12
+		INJECTED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:5:22-76
+uses-permission#android.permission.INTERNET
+ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.CAMERA
+ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:7:5-65
+	android:name
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:7:22-62
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:8:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:10:5-71
+	android:name
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:10:22-68
+uses-permission#android.permission.CALL_PHONE
+ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:11:5-69
+	android:name
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:11:22-66
+uses-permission#android.permission.PERMISSION_ACCESS_FINE_LOCATION
+ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:12:5-90
+	android:name
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:12:22-87
+application
+ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:15:5-71:19
+MERGED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\A\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\2186c074862d73f57f2ab108eec96937\AndroidManifest.xml:11:5-34:19
+MERGED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\A\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\2186c074862d73f57f2ab108eec96937\AndroidManifest.xml:11:5-34:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\A\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\7eda526010433d66ab59bcabf0633be7\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\A\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\7eda526010433d66ab59bcabf0633be7\AndroidManifest.xml:9:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\A\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\fb4af65ce7d758e483f0481d53d8af95\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\A\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\fb4af65ce7d758e483f0481d53d8af95\AndroidManifest.xml:7:5-12:19
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\730d6422917d320fae408d35e886013a\AndroidManifest.xml:22:5-28:19
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\730d6422917d320fae408d35e886013a\AndroidManifest.xml:22:5-28:19
+MERGED from [com.github.bumptech.glide:glide:4.5.0] C:\Users\A\.gradle\caches\transforms-1\files-1.1\glide-4.5.0.aar\17e3da1afc5580802b19d8bd8deec2a0\AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:glide:4.5.0] C:\Users\A\.gradle\caches\transforms-1\files-1.1\glide-4.5.0.aar\17e3da1afc5580802b19d8bd8deec2a0\AndroidManifest.xml:11:5-20
+MERGED from [com.xhb:xbanner:1.5.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\xbanner-1.5.1.aar\ed217affbfb6755a91eaea4e923eefc1\AndroidManifest.xml:9:5-12:19
+MERGED from [com.xhb:xbanner:1.5.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\xbanner-1.5.1.aar\ed217affbfb6755a91eaea4e923eefc1\AndroidManifest.xml:9:5-12:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.5.0] C:\Users\A\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.5.0.aar\279a98023dc1afcc6ae13e55938c58df\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.5.0] C:\Users\A\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.5.0.aar\279a98023dc1afcc6ae13e55938c58df\AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:21:9-35
+	android:label
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:19:9-41
+	android:roundIcon
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:20:9-54
+	android:icon
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:18:9-43
+	android:allowBackup
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:17:9-35
+	android:theme
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:22:9-40
+	android:name
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:16:9-47
+activity#com.example.a.myapplication12321321.MainActivity
+ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:23:9-29:20
+	android:name
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:23:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:24:13-28:29
+action#android.intent.action.MAIN
+ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:27:27-74
+activity#com.example.a.myapplication12321321.SecondActivity
+ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:30:9-52
+	android:name
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:30:19-49
+activity#com.example.a.myapplication12321321.base.mvp.downloadImagetask.DownloadTaskActivity
+ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:42:9-85
+	android:name
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:42:19-82
+activity#com.example.a.myapplication12321321.RecyclerActivity
+ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:43:9-54
+	android:name
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:43:19-51
+activity#com.example.a.myapplication12321321.MultipleRecyclerActivity
+ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:44:9-62
+	android:name
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:44:19-59
+activity#com.example.a.myapplication12321321.base.viewpagerfragment.ViewPageActivity
+ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:45:9-77
+	android:name
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:45:19-74
+activity#com.example.a.myapplication12321321.GreenDaoActivity
+ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:46:9-54
+	android:name
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:46:19-51
+activity#com.example.a.myapplication12321321.RxJava_Activity
+ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:47:9-53
+	android:name
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:47:19-50
+activity#com.example.a.myapplication12321321.ThirdActivity
+ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:48:9-55:20
+	android:name
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:48:19-48
+intent-filter#action:name:com.example.a.myapplication12321321.ThirdActivityAction+category:name:android.intent.category.DEFAULT+category:name:com.example.a.myapplication12321321.ThirdCategory
+ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:49:13-54:29
+action#com.example.a.myapplication12321321.ThirdActivityAction
+ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:50:17-98
+	android:name
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:50:25-95
+category#com.example.a.myapplication12321321.ThirdCategory
+ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:52:17-94
+	android:name
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:52:27-91
+category#android.intent.category.DEFAULT
+ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:53:17-76
+	android:name
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:53:27-73
+activity#com.example.a.myapplication12321321.DialogFragment
+ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:56:9-58:61
+	android:theme
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:58:13-58
+	android:name
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:57:13-43
+activity#com.example.a.myapplication12321321.MezuRecycleView
+ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:59:9-53
+	android:name
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:59:19-50
+activity#com.example.a.myapplication12321321.rxjava.CommonActivity_Fragment
+ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:60:9-68
+	android:name
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:60:19-65
+activity#com.example.a.myapplication12321321.designview.DesignActivity
+ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:61:9-63
+	android:name
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:61:19-60
+receiver#com.example.a.myapplication12321321.broadcast.StaticReceiver
+ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:63:9-70:20
+	android:enabled
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:65:13-35
+	android:exported
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:66:13-36
+	android:name
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:64:13-53
+intent-filter#action:name:android.intent.action.DATE_CHANGED
+ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:67:13-69:29
+action#android.intent.action.DATE_CHANGED
+ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:68:17-76
+	android:name
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:68:25-74
+uses-sdk
+INJECTED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml
+INJECTED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.0] C:\Users\A\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\dd1d9eaf18cacf4473892fe813996778\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.0] C:\Users\A\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\dd1d9eaf18cacf4473892fe813996778\AndroidManifest.xml:20:5-44
+MERGED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\A\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\2186c074862d73f57f2ab108eec96937\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\A\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\2186c074862d73f57f2ab108eec96937\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.LuckSiege.PictureSelector:ucrop:v2.2.3] C:\Users\A\.gradle\caches\transforms-1\files-1.1\ucrop-v2.2.3.aar\61f6663dcf58500b32e2c0db98d45ca6\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.LuckSiege.PictureSelector:ucrop:v2.2.3] C:\Users\A\.gradle\caches\transforms-1\files-1.1\ucrop-v2.2.3.aar\61f6663dcf58500b32e2c0db98d45ca6\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\A\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\f312aa52e3b49820c907e9804a3b6df8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\A\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\f312aa52e3b49820c907e9804a3b6df8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\A\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\7eda526010433d66ab59bcabf0633be7\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\A\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\7eda526010433d66ab59bcabf0633be7\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\ccfd78a3744d5549e193c6cb569aef38\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\ccfd78a3744d5549e193c6cb569aef38\AndroidManifest.xml:20:5-44
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\3ec621c5bad0f5e688b45e471f86e263\AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\3ec621c5bad0f5e688b45e471f86e263\AndroidManifest.xml:19:5-43
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\A\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\fb4af65ce7d758e483f0481d53d8af95\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\A\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\fb4af65ce7d758e483f0481d53d8af95\AndroidManifest.xml:5:5-44
+MERGED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30] C:\Users\A\.gradle\caches\transforms-1\files-1.1\BaseRecyclerViewAdapterHelper-2.9.30.aar\b8fc76646c2c324c226630ebddb2105b\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30] C:\Users\A\.gradle\caches\transforms-1\files-1.1\BaseRecyclerViewAdapterHelper-2.9.30.aar\b8fc76646c2c324c226630ebddb2105b\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jakewharton:butterknife:8.5.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\butterknife-8.5.1.aar\8a10b5e628ba4879e2a815407cf3d22d\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.5.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\butterknife-8.5.1.aar\8a10b5e628ba4879e2a815407cf3d22d\AndroidManifest.xml:5:5-43
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\730d6422917d320fae408d35e886013a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\730d6422917d320fae408d35e886013a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.0] C:\Users\A\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\e757d1b7646e636fae3634eaf07b3d12\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.0] C:\Users\A\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\e757d1b7646e636fae3634eaf07b3d12\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.5.0] C:\Users\A\.gradle\caches\transforms-1\files-1.1\glide-4.5.0.aar\17e3da1afc5580802b19d8bd8deec2a0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.5.0] C:\Users\A\.gradle\caches\transforms-1\files-1.1\glide-4.5.0.aar\17e3da1afc5580802b19d8bd8deec2a0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\2431193bd5c90ffc3cafeba9822eb95a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\2431193bd5c90ffc3cafeba9822eb95a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\A\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\27a30d2eeab589a4b9ccee2cec6230bd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\A\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\27a30d2eeab589a4b9ccee2cec6230bd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\A\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\a66f013a6742109cd8b72c5ff1a45def\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\A\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\a66f013a6742109cd8b72c5ff1a45def\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\1c9019c6a319bd97053f122bedb27722\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\1c9019c6a319bd97053f122bedb27722\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\fd910c39ac13dc05a5dd4434a3924709\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\fd910c39ac13dc05a5dd4434a3924709\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\5a4b9b13b6f3f85b1458aac44c64f35b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\5a4b9b13b6f3f85b1458aac44c64f35b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\A\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\91959ce8dbc8360333111e028fd4d377\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\A\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\91959ce8dbc8360333111e028fd4d377\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\8ff6b2bad657175244708e0d00ebae65\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\8ff6b2bad657175244708e0d00ebae65\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\464dbc787eaf58a45439031d5365af41\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\464dbc787eaf58a45439031d5365af41\AndroidManifest.xml:20:5-44
+MERGED from [com.xhb:xbanner:1.5.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\xbanner-1.5.1.aar\ed217affbfb6755a91eaea4e923eefc1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.xhb:xbanner:1.5.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\xbanner-1.5.1.aar\ed217affbfb6755a91eaea4e923eefc1\AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\22d86f17417cf18273ec4b1df5d2ed94\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\22d86f17417cf18273ec4b1df5d2ed94\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\1a7863a532f43ee2fa6d1f35b8d2cd38\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\1a7863a532f43ee2fa6d1f35b8d2cd38\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\fcc2ab3fd7bd1bdb78a8cfcf8e20d6aa\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\fcc2ab3fd7bd1bdb78a8cfcf8e20d6aa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\A\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\d4824a9b6a1e007e75583337ad62db84\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\A\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\d4824a9b6a1e007e75583337ad62db84\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.5.0] C:\Users\A\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.5.0.aar\279a98023dc1afcc6ae13e55938c58df\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.5.0] C:\Users\A\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.5.0.aar\279a98023dc1afcc6ae13e55938c58df\AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\bdc428385aa9948f2856510908033789\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\bdc428385aa9948f2856510908033789\AndroidManifest.xml:20:5-44
+INJECTED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml
+INJECTED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml
+		INJECTED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml
+		INJECTED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:37:13-39:54
+	android:resource
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:39:17-51
+	android:name
+		ADDED from D:\base_android_application\new\My Application12321321\app\src\main\AndroidManifest.xml:38:17-67
+provider#com.luck.picture.lib.PictureFileProvider
+ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\A\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\2186c074862d73f57f2ab108eec96937\AndroidManifest.xml:12:9-20:20
+	android:grantUriPermissions
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\A\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\2186c074862d73f57f2ab108eec96937\AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\A\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\2186c074862d73f57f2ab108eec96937\AndroidManifest.xml:14:13-60
+	android:exported
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\A\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\2186c074862d73f57f2ab108eec96937\AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\A\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\2186c074862d73f57f2ab108eec96937\AndroidManifest.xml:13:13-68
+activity#com.luck.picture.lib.PictureSelectorActivity
+ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\A\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\2186c074862d73f57f2ab108eec96937\AndroidManifest.xml:22:9-24:55
+	android:windowSoftInputMode
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\A\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\2186c074862d73f57f2ab108eec96937\AndroidManifest.xml:24:13-52
+	android:name
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\A\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\2186c074862d73f57f2ab108eec96937\AndroidManifest.xml:23:13-72
+activity#com.luck.picture.lib.PicturePreviewActivity
+ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\A\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\2186c074862d73f57f2ab108eec96937\AndroidManifest.xml:25:9-80
+	android:name
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\A\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\2186c074862d73f57f2ab108eec96937\AndroidManifest.xml:25:19-77
+activity#com.luck.picture.lib.PictureVideoPlayActivity
+ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\A\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\2186c074862d73f57f2ab108eec96937\AndroidManifest.xml:26:9-29:50
+	android:screenOrientation
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\A\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\2186c074862d73f57f2ab108eec96937\AndroidManifest.xml:29:13-47
+	android:configChanges
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\A\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\2186c074862d73f57f2ab108eec96937\AndroidManifest.xml:28:13-74
+	android:name
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\A\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\2186c074862d73f57f2ab108eec96937\AndroidManifest.xml:27:13-73
+activity#com.luck.picture.lib.PictureExternalPreviewActivity
+ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\A\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\2186c074862d73f57f2ab108eec96937\AndroidManifest.xml:30:9-88
+	android:name
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\A\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\2186c074862d73f57f2ab108eec96937\AndroidManifest.xml:30:19-85
+activity#com.yalantis.ucrop.UCropActivity
+ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\A\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\2186c074862d73f57f2ab108eec96937\AndroidManifest.xml:31:9-69
+	android:name
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\A\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\2186c074862d73f57f2ab108eec96937\AndroidManifest.xml:31:19-66
+activity#com.yalantis.ucrop.PictureMultiCuttingActivity
+ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\A\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\2186c074862d73f57f2ab108eec96937\AndroidManifest.xml:32:9-83
+	android:name
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\A\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\2186c074862d73f57f2ab108eec96937\AndroidManifest.xml:32:19-80
+activity#com.luck.picture.lib.PicturePlayAudioActivity
+ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\A\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\2186c074862d73f57f2ab108eec96937\AndroidManifest.xml:33:9-82
+	android:name
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\A\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\2186c074862d73f57f2ab108eec96937\AndroidManifest.xml:33:19-79
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\A\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\fb4af65ce7d758e483f0481d53d8af95\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\A\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\fb4af65ce7d758e483f0481d53d8af95\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\A\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\fb4af65ce7d758e483f0481d53d8af95\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\A\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\fb4af65ce7d758e483f0481d53d8af95\AndroidManifest.xml:9:13-64
+provider#android.arch.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\730d6422917d320fae408d35e886013a\AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\730d6422917d320fae408d35e886013a\AndroidManifest.xml:25:13-68
+	android:multiprocess
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\730d6422917d320fae408d35e886013a\AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\730d6422917d320fae408d35e886013a\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\A\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\730d6422917d320fae408d35e886013a\AndroidManifest.xml:24:13-83

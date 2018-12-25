@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".base.mvp.downloadImagetask.DownloadTaskActivity">
+    <ProgressBar
+        android:id="@+id/pb_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="gone"/>
+    <ProgressBar
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/pgb_downloadingImg"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal" />
+    <TextView
+        android:id="@+id/tv_loading"
+        android:text="0M/0M"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        app:layout_constraintTop_toBottomOf="@+id/pgb_downloadingImg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/img_download"/>
+
+    <ImageView
+        android:id="@+id/img_download"
+        android:scaleType="centerCrop"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_loading"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btn_downloadTask"
+        />
+
+    <Button
+        android:id="@+id/btn_downloadTask"
+        android:text="下载图片"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/img_download"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btn_downloadfromstreamTask"/>
+    <Button
+        android:id="@+id/btn_downloadfromstreamTask"
+        android:text="下载图片从流中获取"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_downloadTask"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btn_onclick"/>
+    <Button
+        android:id="@+id/btn_onclick"
+        android:text="测试setOnlistenter"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_downloadfromstreamTask"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+</android.support.constraint.ConstraintLayout>

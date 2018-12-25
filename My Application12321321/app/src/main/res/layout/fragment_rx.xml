@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.stx.xhb.xbanner.XBanner
+                android:id="@+id/banner"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:AutoPlayTime="3000"
+                app:isAutoPlay="true"
+                app:isShowIndicatorOnlyOne="true"
+                app:pageChangeDuration="800"
+                app:pointNormal="@drawable/shape_normal"
+                app:pointSelect="@drawable/shape_selected"
+                app:pointsContainerBackground="#442e2e2e"
+                app:pointsPosition="CENTER"
+                app:tipTextSize="12sp" />
+
+            <LinearLayout
+                android:id="@+id/ll_menu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/vp_menu"
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp" />
+                <com.example.a.myapplication12321321.base.widget.IndicatorView
+                    android:id="@+id/view_indicator"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    app:gravity="0"
+                    app:indicatorColor="#668b8989"
+                    app:indicatorColorSelected="#FF5722"
+                    app:indicatorWidth="6" />
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/rx_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter" />
+
+            <Button
+                android:id="@+id/btn_rx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="下载" />
+
+            <Button
+                android:id="@+id/btn_pbl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="瀑布流" />
+
+            <Button
+                android:id="@+id/btn_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="测试SupportManager" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    public static final int CODE_AUDIO = 0;//录音
+    public static final int CODE_GET_ACCOUNTS = 1;//读取通讯录权限
+    public static final int CODE_PHONE = 2;//通话管理拨打电话
+    public static final int CODE_CALENDAR = 3;//日志/日历
+    public static final int CODE_CAMERA = 4;//拍照或录像
+    public static final int CODE_LOCATION = 5;//获取位置信息
+    public static final int CODE_SENSORS= 6;//传感器
+    //    public static final int CODE_READ_EXTERNAL_STORAGE = 7;//文件读取
+    public static final int CODE_STORAGE = 8;//文件操作
+    public static final int CODE_SMS = 9;//短信操作
+    -->
+    <string-array name="permissions" >
+        <item>需要您提供录音权限，否则应用将无法正常运行</item>
+        <item>需要您提供读取通讯录权限，否则应用将无法正常运行</item>
+        <item>需要您提供通话管理拨打电话权限，否则应用将无法正常运行</item>
+        <item>需要您提供日志/日历权限，否则应用将无法正常运行</item>
+        <item>需要您提供拍照或录像权限，否则应用将无法正常运行</item>
+        <item>需要您提供获取位置信息权限，否则应用将无法正常运行</item>
+        <item>需要您提供传感器权限，否则应用将无法正常运行</item>
+        <item>需要您提供文件读取权限，否则应用将无法正常运行</item>
+        <item>需要您提供文件操作权限，否则应用将无法正常运行</item>
+        <item>需要您提供短信操作权限，否则应用将无法正常运行</item>
+    </string-array>
+</resources>
